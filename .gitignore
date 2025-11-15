@@ -1,0 +1,49 @@
+__pycache__/
+*.pyc
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Build / distribution
+dist/
+build/
+*.egg-info/
+
+# Model artifacts (do not commit large model binaries)
+artifacts/
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebook data (generated)
+notebooks/*.csv
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Temp and backup files
+*.tmp
+*.temp
+*.bak
+*~
