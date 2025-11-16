@@ -1,14 +1,13 @@
-
-Telco Churn 
+## Telco Churn 
 
 data-science Telco churn experiments: preprocessing, model training, and comparison.
 
-Usage
+## How to use
 - Clean data: `python src/clean_data.py` (writes `data/telco_cleaned.csv`).
 - Train models: `python src/train_model.py` (creates `artifacts/` with models and scaler).
 - Compare models / plots: `python src/compare_models.py` and `python src/comparison_plots.py`.
 
-What’s in this folder
+## What’s in this repo
 - `data/` — source datasets (`telco_raw.csv`, `telco_cleaned.csv`, streamlit test CSVs).
 - `src/` — scripts: `clean_data.py`, `train_model.py`, `compare_models.py`, `comparison_plots.py`.
 - `notebooks/` — analysis notebooks (executed and cleaned versions).
